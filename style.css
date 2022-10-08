@@ -1,0 +1,758 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.mainBody{}
+
+.navBar{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 5%;
+}
+.navButton{
+    background-color: white;
+    border-color:  hsl(321, 100%, 78%);
+    border-radius: 25px;
+    border-style: double;
+    color:hsl(322, 100%, 66%);
+    width: 15%;
+}
+.navButton:hover
+{
+    color:  hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.callToAction{
+    text-align: center;
+}
+.callToActionHeaderText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+.callToActionSubText{
+    
+    font-size: 1.5rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 500;
+}
+.callToActionButton{
+    background-color:  hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border-style: none;
+    color: hsl(207, 100%, 98%);
+    padding: 1rem 0;
+    width: 25%;
+}
+
+.callToActionButton:hover{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.mainImg{
+    width: 80%;
+    margin: 2% 10% 5% 10%;
+    
+}
+.infoNumberMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.infoNumber1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.iconInfo1{
+    margin-right: 80%;
+    width: 20%;
+}
+.infoNum1{    
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoText1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    opacity: .5;
+    
+}
+
+.infoNumber2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.iconInfo2{
+    margin-right: 80%;
+    width: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoNum2{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoText2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    opacity: .5;
+    color: hsl(192, 100%, 9%);
+    
+}
+.growTogether{    
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/bg-section-top-desktop-1.svg), url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8.5rem 0;
+    background-position: right top, left bottom;
+    margin: 10% 0%;
+    direction: rtl;
+    
+}
+.growTogetherImg{
+    width: 50%;
+    background-color: hsl(207, 100%, 98%);
+}
+.growTogetherMainText{
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.growTogetherHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 5%;
+    direction: ltr;
+    
+}
+.growTogetherSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    direction: ltr;
+    margin: 0px 5%;
+}
+
+.flowingConversations{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 5%;
+}
+.flowingConversationsHeaderImg{
+    width: 50%;
+}
+.flowingConversationsMainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.flowingConversationsHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 5%;
+}
+.flowingConversationsSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px 5%;
+}
+
+.yourUsers{
+    display: flex;
+    flex-direction: row;
+    background-image: url(images/bg-section-top-desktop-2.svg), url(images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: left top, left bottom;
+    padding: 8.5rem 0;
+    margin: 10% 0%;
+    direction: rtl;
+}
+.yourUsersImg{
+    width: 50%;
+    background-color: hsl(207, 100%, 98%);
+}
+.yourUsersMainText{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(207, 100%, 98%);
+    justify-content: center;
+}
+.yourUsersHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    direction: ltr;
+    margin: 5%;
+}
+.yourUsersSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px 5%;
+    direction: ltr;
+}
+
+.lastCta{
+    text-align: center;
+    margin-bottom: 5%;  
+}
+.lastCtaText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.lastCtaButton{
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    border-radius: 25px;
+    color: hsl(207, 100%, 98%);
+    padding: 1.5%;
+    width: 19%;
+    
+}
+.lastCtaButton:hover{ background-color: hsl(321, 100%, 78%);
+    cursor: pointer;}
+
+.foot{
+    margin: 0px -8px -8px -8px;
+}
+.footerMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url(./images/bg-footer-top-desktop.svg);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 9.7rem 0px 0px 0px;
+}
+
+.footerL{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+    padding-left: 25px;
+    
+}
+.footerLogo{
+    filter: 
+    invert(100%)      sepia(0%)        saturate(0%) 
+    hue-rotate(20deg) brightness(110%) contrast(101%);
+    width: min-content;
+    margin-top: 35px;
+}
+.footerLSubText{
+    color: hsl(207, 100%, 98%);
+    font-size: 1rem;
+    
+}
+.footIcons{
+    padding-bottom: 4rem;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    color: hsl(207, 100%, 98%);
+}
+.footerPhoneNumer{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 55%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    filter: invert(0) brightness(1);
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    color: hsl(207, 100%, 98%);
+}
+
+.footerEmail{
+    color: hsl(207, 100%, 98%);
+    font-weight: 500;
+    font-size: 1rem;
+    width: 55%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    filter: invert(0) brightness(1);
+    
+}
+.socialMedia{
+    width: 20%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-brands{
+    color: hsl(207, 100%, 98%);
+    font-size: 1.5rem;
+}
+.fa-brands:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+.footerR{
+    background-color: hsl(192, 100%, 9%);
+    margin-bottom: -30px;
+}   
+.footerRHeaderText{
+    color: hsl(207, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    
+}
+.footerRSubText{
+    color: hsl(207, 100%, 98%);
+    
+}
+
+
+.footerRInputEmail{
+    
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 15%;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.footerSubscribe{
+    border-style: none;
+    border-radius: 10px;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(207, 100%, 98%);
+    font-size: 1.5rem;
+    padding: 0.5rem 0px;
+    width: 30%;    
+}
+.footerRInputEmail:hover{
+    border-style: solid;
+    border-color: hsl(321, 100%, 78%);
+    border-width: 3px;
+    cursor: pointer;
+   
+}
+
+.footerSubscribe:hover
+{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.navButton{
+    background-color: white;
+    border-color:  hsl(321, 100%, 78%);
+    border-radius: 25px;
+    border-style: double;
+    color:hsl(322, 100%, 66%);
+    width: 20%;
+}
+.callToActionHeaderText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.callToActionSubText{
+    
+    font-size: 1rem;
+    color: hsl(192, 100%, 9%);
+    font-weight: 500;
+}
+.callToActionButton{
+    background-color:  hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border-style: none;
+    color: hsl(207, 100%, 98%);
+    padding: 0.8rem 0;
+    width: 50%;
+    margin: 10% 0px;
+}
+
+.callToActionButton:hover{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+.mainImg{
+    width: 80%;
+    margin: 2% 10% 5% 10%;
+    
+}
+.infoNumberMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.infoNumber1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.iconInfo1{
+    margin-right: 25%;
+    width: 8%;
+}
+.infoNum1{    
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoText1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    opacity: .5;
+    
+}
+
+.infoNumber2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.iconInfo2{
+    margin-right: 25%;
+    width: 8%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoNum2{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.infoText2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 36%;
+    margin-right: 43%;
+    text-align: unset;
+    font-size: 1rem;
+    opacity: .5;
+    color: hsl(192, 100%, 9%);
+    
+}
+.growTogether{    
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-section-top-mobile-1.svg), url(./images/bg-section-bottom-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain, contain;
+    padding: 9rem 0px 4.4rem;
+    background-position: right top, left bottom;
+    margin: 10% 0%;
+    direction: rtl;
+    
+}
+.growTogetherImg{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+}
+.growTogetherMainText{
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.growTogetherHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5%;
+    text-align: center;
+    
+}
+.growTogetherSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    font-weight: 500;
+    direction: ltr;
+    margin: 0px 5%;
+}
+
+.flowingConversations{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 5%;
+}
+.flowingConversationsHeaderImg{
+    width: 100%;
+}
+.flowingConversationsMainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.flowingConversationsHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 5%;
+}
+.flowingConversationsSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px 5%;
+}
+
+.yourUsers{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-section-top-mobile-2.svg), url(images/bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: left top, left bottom;
+    padding: 8.5rem 0px;
+    margin: 30% 0%;
+    
+}
+.yourUsersImg{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+}
+.yourUsersMainText{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(207, 100%, 98%);
+    justify-content: center;
+}
+.yourUsersHeaderText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    
+    margin: 5%;
+}
+.yourUsersSubText{
+    color: hsl(192, 100%, 9%);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px 5%;
+    
+}
+
+.lastCta{
+    text-align: center;
+    margin-bottom: 5%;  
+}
+.lastCtaText{
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.lastCtaButton{
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    border-radius: 25px;
+    color: hsl(207, 100%, 98%);
+    padding: 2.5%;
+    width: 50%;
+    
+}
+.lastCtaButton:hover{ background-color: hsl(321, 100%, 78%);
+    cursor: pointer;}
+
+.foot{
+    margin: 0px -8px -8px -8px;
+}
+.footerMain{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-image: url(./images/bg-footer-top-mobile.svg);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4.7rem 0px 0px 0px;
+}
+
+.footerL{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+    padding-left: 25px;
+    grid-area: 2;
+    padding-left: 4rem;
+}
+.footerLogo{
+    filter: 
+    invert(100%)      sepia(0%)        saturate(0%) 
+    hue-rotate(20deg) brightness(110%) contrast(101%);
+    width: min-content;
+    margin-top: 35px;
+}
+.footerLSubText{
+    color: hsl(207, 100%, 98%);
+    font-size: 1rem;
+    
+}
+.footIcons{
+    padding-bottom: 4rem;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    color: hsl(207, 100%, 98%);
+}
+.footerPhoneNumer{
+    font-size: 1rem;
+    font-weight: 500;
+    width: 55%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    filter: invert(0) brightness(1);
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    color: hsl(207, 100%, 98%);
+}
+
+.footerEmail{
+    color: hsl(207, 100%, 98%);
+    font-weight: 500;
+    font-size: 1rem;
+    width: 55%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    filter: invert(0) brightness(1);
+    
+}
+.socialMedia{
+    width: 20%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-brands{
+    color: hsl(207, 100%, 98%);
+    font-size: 1.5rem;
+}
+.fa-brands:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+.footerR{
+    background-color: hsl(192, 100%, 9%);
+    margin-bottom: -30px;
+    padding-left: 4rem;
+    padding-bottom: 5rem;
+}   
+.footerRHeaderText{
+    color: hsl(207, 100%, 98%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    
+}
+.footerRSubText{
+    color: hsl(207, 100%, 98%);
+    
+}
+
+
+.footerRInputEmail{
+    
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 15%;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.footerSubscribe{
+    border-style: none;
+    border-radius: 10px;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(207, 100%, 98%);
+    font-size: 1.5rem;
+    padding: 0.5rem 0px;
+    width: 30%;    
+    margin-left: 50%;
+}
+.footerRInputEmail:hover{
+    border-style: solid;
+    border-color: hsl(321, 100%, 78%);
+    border-width: 3px;
+    cursor: pointer;
+
+}
+.checkEmail , .footerRInputEmail:hover ::before{
+    content: "check your email";
+    color: hsl(0, 100%, 63%);
+}
+.footerSubscribe:hover{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+
+}
